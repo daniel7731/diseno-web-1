@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" value="Elementos de tipo texto en html">
+        <style>
+            .izquierda {
+              text-align: left;
+            }
+            
+            .centrado {
+              text-align: center;
+            }
+            
+            .derecha {
+              text-align: right;
+            }
+            
+            .justificado {
+              text-align: justify;
+            }
+         </style>
+    </head>
+    <body>
+        <div>
+            <h1>Elementos de de tipo texto</h1>
+        </div>
+        <div>
+            <!--Los encabezados se organizan de forma jerarquica del h1 al h6-->
+            <h2>Encabezados</h2>
+            <p>Los encabezados se utilizan para definir títulos y subtítulos. HTML cuenta con seis niveles de encabezados, desde hasta, 
+                donde representa el encabezado de mayor importancia y el de menor.</p>
+            <div>
+                <h1>Encabezado h1</h1>
+                <h2>Encabezado h2</h2>
+                <h3>Encabezado h3</h3>
+                <h4>Encabezado h4</h4>
+                <h5>Encabezado h5</h5>
+                <h6>Encabezado h6</h6>
+            </div>
+        </div>
+        <div>
+            <h2>Párrafos</h2>
+            <p>El elemento p se utiliza para crear párrafos de texto.</p>
+        </div>
+        <div>
+            <h2>Énfasis y formato de texto</h2>
+            <p>Existen varios elementos para dar formato al texto:</p>
+            <ul>
+                <li>Da un énfasis fuerte (negrita).  strong</li>
+                <li>Aplica énfasis (cursiva). i </li>
+                <li>Subrayado.  usando propiedade de css</li>
+                <li>Tachado.  usando propiedade de css</li>
+                <li>Underline.  usando propiedade de css</li>
+            </ul>
+            <p><strong>Ejemplo.</strong></p>
+            <p>Este es un texto <strong>importante</strong> y <em>enfatizado</em>.</p>  
+            <p>  <span style="text-decoration: line-through;">texto tachado</span> </p> 
+            <p>  <span style="text-decoration: underline;">texto subrayado</span> </p> 
+            <p>  <i style="text-emphasis: 100">texto en cursiva</i> </p> 
+        </div>
+        <div>
+             <h2>Citas y referencias</h2>
+             <ul>
+                <li>Para citas en línea usa la etiueta cite. <cite>El Quijote</cite></li>
+                <li>Para referenciar obras. usa la etiueta blockquote</li>
+             </ul>
+             <div>
+                <blockquote>Cita extensa o bloque de texto citado.</blockquote>
+                <p>Según , "En un lugar de la Mancha..."</p>
+             </div>
+        </div>
+        <div>
+            <h2>Listas ordenadas</h2>
+            <ol type="A" start="3">
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Listas sin orden</h2>
+            <ul>
+                <li>Elemento A</li>
+                <li>Elemento B</li>
+                <li>Elemento C</li>
+              </ul>
+        </div>
+        <div>
+            <h2>La alineación de texto</h2>
+            <p class="izquierda">Este texto está alineado a la izquierda.</p>
+            <p class="centrado">Este texto está centrado.</p>
+            <p class="derecha">Este texto está alineado a la derecha.</p>
+            <p class="justificado">Este es un párrafo justificado. La justificación del texto hace que 
+                cada línea se extienda hasta los márgenes izquierdo y derecho del contenedor,
+                creando una apariencia uniforme y profesional.</p>
+        </div>
+    </body>
+</html>
