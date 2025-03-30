@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PHP Built-in Web Server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "${workspaceFolder}/02-php-formularios" // Replace 'public' with your document root directory
+            ],
+            "program": "${workspaceFolder}/public/index.php", // or the starting point of your app.
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
