@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Uso de Unidades Relativas */
+            body {
+                font-size: 1rem;
+                width: 90%;
+            }
+            /* Imágenes y Elementos Multimedia Responsivos*/
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            /*
+            Media Queries
+            */
+            @media (max-width: 768px) {
+                body {
+                    background-color: lightgray;
+                }
+            }
+        </style>
+        <!--La metaetiqueta de viewport es una etiqueta HTML que le dice al navegador 
+        cómo controlar las dimensiones y el escalado de la página -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6">Columna 1</div>
+              <div class="col-md-6">Columna 2</div>
+            </div>
+         </div>
+    </body>
+</html>
